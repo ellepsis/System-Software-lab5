@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.1)
-<<<<<<< HEAD
 project(lab5)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m64 -pthread -std=c11")
@@ -38,11 +37,3 @@ overal_functions.c overal_functions.h)
 
 add_executable(part10fork part10fork.c part10fork.h overal_functions.h
 overal_functions.c)
-=======
-project(lab4)
-
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -D_FILE_OFFSET_BITS == 64 -m64 -std=c88")
-
-set(SOURCE_FILES more.c term_out.c)
-add_executable(lab4 ${SOURCE_FILES} term_in.h term_in.c commands.h commands.c positions.h positions.c lines.h lines.c)
->>>>>>> 3a4c5ea602faa64fad203c983d479e5cc0b3d417
