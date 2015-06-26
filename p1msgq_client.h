@@ -1,0 +1,4 @@
+#ifndef LAB5_P1MSGQ_CLIENT_H
+#define LAB5_P1MSGQ_CLIENT_H
+
+#endif
